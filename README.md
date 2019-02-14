@@ -1,3 +1,5 @@
+**本项目demo地址：[Only For Liz](https://lostwinds.cn/liz/)**
+
 # Valentine 特辑
 
 > 今天是一个特殊的日子
@@ -36,14 +38,15 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=480097178&auto=1&height=66"></iframe>
 ```
 
-### 主框架代码，利用iSlider的demo修改而成
+### 主框架代码，利用iSlider的QQ音乐demo修改而成
 
 见具体代码
-
-
+index.html
 然后就完成了
 祝Liz这辈子都能幸福！
 祝我也能有爱别人和被爱的能力
+
+本项目已经挂载在Github[Andrew8102/ValentineForLiz](https://github.com/Andrew8102/ValentineForLiz)上
 
 
 
