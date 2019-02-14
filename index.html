@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>Only for Liz</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+<script>
+    window.debug = true;
+</script>
+<div class="wrap" id="wrap">
+    <div class="item item-1">
+        <div class="box">
+            <div class="mod_container">
+                <h1 class="sprite text_1">Liz，你知道圣瓦伦丁节从何而来吗？</h1>
+
+            </div>
+            <div class="slider">
+                <span>⬇</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="item item-2">
+        <div class="box">
+            <div class="mod_container">
+                <div class="sprite text_1">一切都发生于约在公元三世纪的罗马，那时恺撒已经死去快三百年了，这时是暴君克劳多斯(Claudius)当政。当时，罗马内外战争频仍，民不聊生。为了补足兵员，将战争进行到底，Claudius下令，凡是一定年龄范围内的男子，都必须进入罗马军队，以生命为国家效劳。</div>
+                <div class="sprite text_2">自此，丈夫离开妻子，少年离开恋人。于是整个罗马便被笼罩在绵长的相思中。对此，暴君大为恼火。为了达到自己的目的，他竟然下令禁止国民举行结婚典礼，甚至要求已经结婚的毁掉婚约。</div>
+            </div>
+            <div class="slider">
+                <span>⬇</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item-3">
+        <div class="box">
+            <div class="mod_container">
+                <div class="sprite text_1">然而，暴政禁止不了爱情。就在暴君的国都里，居住着一位德高望重的修士，他就是瓦沦丁(Valentine)，他不忍看到一对对伴侣就这样生离死别，于是为前来请求帮助的情侣秘密地主持上帝的结婚典礼。</div>
+                <div class="sprite text_2">一时间，这一令人振奋的消息在整个国度传开，更多的情侣秘密地赶来请求修士的帮助。</div>
+                <div class="back"></div>
+                <div class="heart"></div>
+            </div>
+            <div class="slider">
+                <span>⬇</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item-4">
+        <div class="box">
+            <div class="mod_container">
+                <div class="sprite text_1">但是，事情很快还是被暴君知晓了，于是他再一次显示了残暴面目--将修士打进大牢，最终折磨致死。修士死的那一天是2月14日，公元270年的2月14日。 人们为了纪念这个敢于与暴君斗争的人，渐渐地使得2月14日成为一个节日。</div>
+                <div class="sprite text_2">很多世纪过去了，人们再也记不得Claudius的大名，再也记不得他的权杖与宝剑，但依然会纪念Valentine修士，因为那个日子是Valentine's Day，是情人节。</div>
+            </div>
+            <div class="slider">
+                <span>⬇</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item-5">
+        <div class="box">
+            <div class="mod_container">
+            <h2 class="sprite text_1">所以呢祝您情人节快乐！</h2>
+            <h3 class="sprite text_2">祝天下所有幸福的人都能被幸福环绕</h3>
+            <img class="superise" src="my.png" alt="maidragon">
+            </div>
+        </div>
+        <div class="footer">
+            <span>Designed Only For My Liz</span><br>
+            <span>仅此纪念2019年2月14日</span>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="iSlider.js"></script> 
+
+<script>
+//demo
+//用法
+var myslider=new iSlider({
+    wrap:'#wrap',
+    item:'.item',
+    onslide:function (index) {
+        if (index == 4) {
+            document.getElementById('J_joinNum').innerHTML=parseInt(Math.random()*10000);
+        }
+    }
+});
+console.info(myslider)
+</script>
+</body>
+</html>
