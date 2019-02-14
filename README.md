@@ -1,4 +1,5 @@
 **本项目demo地址：[Only For Liz](https://lostwinds.cn/liz/)**
+缺陷：目前只能手机滑动浏览或电脑浏览器响应式调试滑动
 
 # Valentine 特辑
 
